@@ -25,7 +25,7 @@
     New things and things to remember:
     
     - for chmod (`chmod 600 some_file`):
-        ![](http://linuxcommand.org/images/file_permissions.png)
+        ![](http://linuxcommand.org/images/file_permissions.png)  
         rwx = 111 in binary = 7  
         rw- = 110 in binary = 6  
         r-x = 101 in binary = 5  
