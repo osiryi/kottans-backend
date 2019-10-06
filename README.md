@@ -12,15 +12,15 @@
     ![Git-It Progress](pics/1_git/git-it.png)
  
 ### New things and things to remember:  
-  `git diff` - show diff
-  `git add .` - add all changed tracked files to staging
-  `git checkout -b <branch name>` - create branch and checkout
-  `git commit -m <commit message>` - create commit with commit message
-  `git log --oneline --graph --all --decorated` - show all commits in branch tree
-  `git show <commit sha>` - commit info
-  `git diff --name-only --cached` - show staged filenames only
-  `git reset` - unstage all the staged files
-  `git rebase -i <base>` - interactive rebase of commit to new base
+  `git diff` - show diff  
+  `git add .` - add all changed tracked files to staging  
+  `git checkout -b <branch name>` - create branch and checkout  
+  `git commit -m <commit message>` - create commit with commit message  
+  `git log --oneline --graph --all --decorated` - show all commits in branch tree  
+  `git show <commit sha>` - commit info  
+  `git diff --name-only --cached` - show staged filenames only  
+  `git reset` - unstage all the staged files  
+  `git rebase -i <base>` - interactive rebase of commit to new base  
  
 --- 
 ## Unix Shell
@@ -55,17 +55,17 @@
   1. Udacity course progress:
   ![Udacity Course Progress](pics/3_git-collaboration/Udacity_course.png) 
 
-### New things and things to remember:  git rm -r -f
-   `git remote add <shortname> <remote_repo_url>` - add remote
-   `git remote -v` - show all remotes
-   `git push <remote_shortname> <branch_name>` - push changes to remote
-   `git pull <remote_shortname> <branch_name>` - pull changes from remote
-   `git fetch <remote_shortname> <branch_name>` - fetch from remote
-   `git merge origin/master` - merge branch (make git checkout first)
+### New things and things to remember:  
+   `git remote add <shortname> <remote_repo_url>` - add remote  
+   `git remote -v` - show all remotes  
+   `git push <remote_shortname> <branch_name>` - push changes to remote  
+   `git pull <remote_shortname> <branch_name>` - pull changes from remote  
+   `git fetch <remote_shortname> <branch_name>` - fetch from remote  
+   `git merge origin/master` - merge branch (make git checkout first)  
    `git shortlog` - displays an alphabetical list of names and the commit messages that go along with them. If we just want to see just the number of commits that each developer has made, we can add a couple of flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically (rather than alphabetically by author name).  
    `git log --author=<Author>` - display all commits by Author  
-   `git log --grep=<aprt of commit message>` - display commit by message
-   `git remote rename <old_name> <new_name>` - rename remote
+   `git log --grep=<aprt of commit message>` - display commit by message  
+   `git remote rename <old_name> <new_name>` - rename remote  
     
    CONTRIBUTING.md file usually lists out the information you should follow to contribute to the project.
     
@@ -74,7 +74,7 @@
     - clone your fork down to your machine  
     - make some commits (ideally on a topic branch!)  
     - push the commits back to your fork  
-    - create a new pull request and choose the branch that has your new commits
+    - create a new pull request and choose the branch that has your new commits  
     
    To remove files/folders on remote but keep in local working directory:  
    `git rm -r --cached File-or-FolderName`  
