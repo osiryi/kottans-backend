@@ -11,7 +11,7 @@
     ![Learningitbranching Second Part Progress](pics/1_git/learngitbranching_2.png)
     ![Git-It Progress](pics/1_git/git-it.png)
  
-    ###New things and things to remember:
+    ###New things and things to remember:  
     `git diff` - show diff
     `git add .` - add all changed tracked files to staging
     `git checkout -b <branch name>` - create branch and checkout
@@ -33,7 +33,7 @@
     
  2. Learning the Shell section on linuxcommand.org
  
-    ###New things and things to remember:
+    ###New things and things to remember:  
     
     for chmod (`chmod 600 some_file`):
         ![](http://linuxcommand.org/images/file_permissions.png)  
