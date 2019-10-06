@@ -11,13 +11,15 @@
     ![Learningitbranching Second Part Progress](pics/1_git/learngitbranching_2.png)
     ![Git-It Progress](pics/1_git/git-it.png)
  
-###New things and things to remember:  
+### New things and things to remember:  
   `git diff` - show diff
   `git add .` - add all changed tracked files to staging
   `git checkout -b <branch name>` - create branch and checkout
   `git commit -m <commit message>` - create commit with commit message
   `git log --oneline --graph --all --decorated` - show all commits in branch tree
   `git show <commit sha>` - commit info
+  `git diff --name-only --cached` - show staged filenames only
+  `git reset` - unstage all the staged files
   `git rebase -i <base>` - interactive rebase of commit to new base
  
 --- 
@@ -33,7 +35,7 @@
     
  2. Learning the Shell section on linuxcommand.org
  
-###New things and things to remember:  
+### New things and things to remember:  
     
   for chmod (`chmod 600 some_file`):
       ![](http://linuxcommand.org/images/file_permissions.png)  
@@ -53,7 +55,7 @@
   1. Udacity course progress:
   ![Udacity Course Progress](pics/3_git-collaboration/Udacity_course.png) 
 
-###New things and things to remember:  git rm -r -f
+### New things and things to remember:  git rm -r -f
    `git remote add <shortname> <remote_repo_url>` - add remote
    `git remote -v` - show all remotes
    `git push <remote_shortname> <branch_name>` - push changes to remote
@@ -73,3 +75,8 @@
     - make some commits (ideally on a topic branch!)  
     - push the commits back to your fork  
     - create a new pull request and choose the branch that has your new commits
+    
+   To remove files/folders on remote but keep in local working directory:  
+   `git rm -r --cached File-or-FolderName`  
+   `git commit -m "Removed folder from repository"`  
+   `git push origin master`
