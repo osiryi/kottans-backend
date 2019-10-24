@@ -48,6 +48,8 @@
   `bg` - put a process in the background
   `fg` - put a process in the forground
   `man <command>` - manual for command
+  `PATH=$PATH:/home/swaroop/mydir` - add directory to path
+  `cp <python_file> <directory_from_path>` - add python script as command e.g. `cp helloworld.py /home/swaroop/bin/helloworld`
 
 ---    
 ## Git Collaboration 
@@ -80,3 +82,10 @@
    `git rm -r --cached File-or-FolderName`  
    `git commit -m "Removed folder from repository"`  
    `git push origin master`
+   
+---
+## Python Basics Part I
+    
+   https://www.hackerrank.com/ephirze  
+   
+---
